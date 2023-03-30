@@ -1,0 +1,170 @@
+.firstscreen__imgbg1 {
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+.firstscreen__imgbg2 {
+  display: none;
+  @media (min-width: 1200px) {
+    display: block;
+  }
+}
+
+.secondscreen {
+  display: none;
+
+  &.secondscreen_1 {
+    padding-top: 80px;
+    @media (min-width: 992px) {
+      padding-top: 173px;
+    }
+  }
+
+  &.secondscreen_2 {
+    padding-top: 40px;
+    @media (min-width: 992px) {
+      padding-top: 130px;
+    }
+  }
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  @media (min-width: 1200px) {
+    width: 410px;
+    min-width: 410px;
+  }
+  .countdown-js {
+    width: 100%;
+  }
+}
+
+.timer__title {
+  font-family: $font_family2;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 39px;
+  color: $body_bg_color;
+  text-transform: uppercase;
+  text-align: center;
+  @media (min-width: 992px) {
+    text-align: left;
+    font-size: 33px;
+    padding: 0 10px;
+  }
+  @media (min-width: 1200px) {
+    width: 100%;
+    font-size: 52px;
+    padding: 8px 10px;
+  }
+}
+
+.timer__title2 {
+  margin: 34px auto 0;
+  @media (min-width: 1200px) {
+    margin: 35px auto 0;
+    width: 290px;
+  }
+}
+
+.userfbacks {
+  width: 218px;
+  margin: 0 auto;
+  @media (min-width: 992px) {
+    width: 100%;
+  }
+}
+
+.userfback {
+  position: relative;
+  border: 1px solid #000;
+  padding: 28px 28px 28px;
+  max-width: 218px;
+  min-height: 250px;
+  @media (min-width: 1200px) {
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 450px;
+    padding: 30px 50px 30px;
+  }
+}
+
+.userfback__name {
+  font-family: $font_family2;
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 0 16px 0;
+  @media (min-width: 1200px) {
+    font-size: 18px;
+    margin: 0 0 22px 0;
+  }
+}
+
+.userfback__txt {
+  font-family: $font_family;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  @media (min-width: 1200px) {
+    font-size: 25px;
+    line-height: 39px;
+  }
+  p {
+    line-height: 24px;
+    margin-bottom: 5px;
+    @media (min-width: 1200px) {
+      line-height: 39px;
+    }
+  }
+}
+
+.search-progress {
+  &.progress {
+    width: 100%;
+    height: 52px;
+    background-color: $btn_bg_color;
+    border-radius: 0;
+    position: relative;
+    @media (min-width: 992px) {
+      height: 52px;
+    }
+    @media (min-width: 1200px) {
+      height: 78px;
+    }
+  }
+  .progress-bar {
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    transition: width 0.2s linear;
+    background-color: $bg_dark_1;
+  }
+  .search-progress__title {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -15px);
+    z-index: 10;
+    color: $font_color;
+    font-family: $font_family;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    @media (min-width: 1200px) {
+      font-size: 30px;
+      transform: translate(-50%, -24px);
+    }
+  }
+  .search-progress__value {
+    @media (min-width: 992px) {
+      margin: 0 0 0 10px;
+    }
+  }
+}

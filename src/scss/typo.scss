@@ -1,0 +1,384 @@
+h1 {
+  font-family: $font_family2;
+  font-weight: 400;
+  font-size: 247px;
+  line-height: 1.2;
+  color: $bg_light_3;
+  margin: 0;
+  text-align: center;
+  @media (min-width: 1920px) {
+    font-size: 247px;
+  }
+}
+
+.h1-index {
+  font-family: $font_family2;
+  font-weight: 400;
+  color: $font_color;
+  font-size: 41px;
+  line-height: 1.28;
+  margin: 16px 0 40px;
+  @media (min-width: 992px) {
+    font-size: 41px;
+    margin: 16px 0 52px;
+  }
+  @media (min-width: 1200px) {
+    text-align: left;
+    font-size: 41px;
+    margin: 0 0 45px;
+  }
+  @media (min-width: 1400px) {
+    font-size: 41px;
+    margin: 0 0 52px;
+  }
+  @media (min-width: 1650px) {
+    font-size: 41px;
+  }
+
+  .h1-index__row1 {
+    font-size: 42px;
+    @media (min-width: 992px) {}
+    @media (min-width: 1200px) {}
+    @media (min-width: 1400px) {}
+    @media (min-width: 1650px) {
+      font-size: 56px;
+    }
+    @media (min-width: 1920px) {
+      font-size: 61px;
+    }
+  }
+  .h1-index__row2 {
+    font-size: 37px;
+    @media (min-width: 992px) {}
+    @media (min-width: 1200px) {}
+    @media (min-width: 1400px) {}
+    @media (min-width: 1650px) {
+      font-size: 50px;
+    }
+    @media (min-width: 1920px) {
+      font-size: 57px;
+    }
+  }
+  .h1-index__row3 {
+    font-size: 47px;
+    @media (min-width: 992px) {}
+    @media (min-width: 1200px) {}
+    @media (min-width: 1400px) {}
+    @media (min-width: 1650px) {
+      font-size: 63px;
+    }
+    @media (min-width: 1920px) {
+      font-size: 72px;
+    }
+  }
+}
+
+.h1_search {
+  font-family: $font_family2;
+  font-weight: 400;
+  color: $font_color;
+  font-size: 41px;
+  line-height: 50px;
+  margin: 0 0 31px;
+  @media (min-width: 992px) {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 66px;
+    line-height: 80px;
+    margin: 0 0 50px;
+  }
+  @media (min-width: 1400px) {
+    font-size: 80px;
+    line-height: 97px;
+    margin: 0 0 64px;
+  }
+}
+
+.h1_login {
+  font-family: $font_family2;
+  color: $font_color;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 1.28;
+  margin: 0 0 60px;
+  text-align: center;
+  @media (min-width: 380px) {
+    font-size: 27px;
+  }
+  @media (min-width: 450px) {
+    font-size: 27px;
+  }
+  @media (min-width: 992px) {
+    font-size: 60px;
+    line-height: 1.2;
+    margin: 0 0 60px;
+  }
+  @media (min-width: 1200px) {
+    text-align: left;
+    font-size: 50px;
+  }
+  @media (min-width: 1400px) {
+    font-size: 50px;
+  }
+  @media (min-width: 1650px) {
+    font-size: 60px;
+  }
+  span {
+    font-size: 31px;
+    @media (min-width: 992px) {
+      font-size: inherit;
+    }
+    @media (min-width: 1200px) {
+      font-size: inherit;
+    }
+  }
+}
+
+.h1_login2 {
+  font-family: $font_family2;
+  color: $font_color;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 40px;
+  margin: 20px 0 30px;
+  text-align: center;
+  text-transform: uppercase;
+  @media (min-width: 992px) {
+    font-size: 55px;
+    line-height: 1.35;
+  }
+  @media (min-width: 1200px) {
+    font-size: 55px;
+    line-height: 1.35;
+  }
+
+  &.h1_login2_my {
+    margin: 60px 0 53px;
+    @media (min-width: 1200px) {
+      margin: 100px 0 76px;
+    }
+  }
+
+  .h1_login2br {
+    display: block;
+    @media (min-width: 450px) {
+      display: none;
+    }
+  }
+}
+
+h2 {
+  font-family: $font_family2;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 39px;
+  color: $font_color;
+  margin-bottom: 28px;
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  @media (min-width: 992px) {
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 56px;
+  }
+
+  &.h2_index {
+    font-size: 48px;
+    line-height: 47px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: $font_color;
+    text-transform: uppercase;
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+    @media (min-width: 992px) {
+      text-align: left;
+    }
+    @media (min-width: 1200px) {
+      font-size: 80px;
+      line-height: 39px;
+      margin-bottom: 70px;
+    }
+    @media (min-width: 1650px) {
+      font-size: 80px;
+      line-height: 39px;
+    }
+    span.h2_index2row {
+      font-size: 37px;
+      line-height: 47px;
+      @media (min-width: 768px) {
+        font-size: 48px;
+        line-height: 39px;
+      }
+      @media (min-width: 1200px) {
+        font-size: 80px;
+      }
+      @media (min-width: 1650px) {
+        font-size: 80px;
+      }
+    }
+  }
+}
+
+.h2_subscr {
+  display: none;
+  @media (min-width: 1200px) {
+    display: block;
+  }
+}
+
+h3 {
+  font-family: $font_family;
+  font-weight: 400;
+  color: $font_color;
+  font-size: 16px;
+  line-height: 39px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  @media (min-width: 992px) {
+    font-size: 21px;
+    line-height: 39px;
+    margin-top: 64px;
+    margin-bottom: 30px;
+  }
+}
+
+h4 {
+  font-family: $font_family;
+  font-weight: 300;
+  color: $font_color;
+  font-size: 21px;
+  line-height: 32px;
+  margin: 15px 0 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  @media (min-width: 992px) {
+    font-size: 37px;
+    line-height: 60px;
+    margin: 0 0 70px 0;
+  }
+
+  &.h4_pv {
+    padding: 0 20px;
+  }
+
+  &.h4_firstscreen {
+    color: $body_bg_color;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    margin: 25px 0 0 0;
+    @media (min-width: 1200px) {
+      color: $font_color;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 60px;
+      margin: 0 0 30px 0;
+    }
+    @media (min-width: 1400px) {
+      font-size: 30px;
+      margin: 0 0 36px 0;
+    }
+    @media (min-width: 1650px) {
+      font-size: 35px;
+      margin: 0 0 65px 0;
+    }
+  }
+}
+
+.neon-title {
+  display: inline-block;
+  font-family: $font_family;
+  font-weight: 300;
+  color: $body_bg_color;
+  font-size: 33px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  background-color: $bg_light_2;
+  box-shadow: 0px 0px 14px 10px $bg_light_2;
+  padding: 0 10px;
+  transform: rotate(-2deg);
+  @media (min-width: 992px) {
+    padding: 15px;
+    font-size: 52px;
+    line-height: 39px;
+  }
+}
+
+p {
+  line-height: 33px;
+  margin-bottom: 1rem;
+  @media (min-width: 992px) {
+    line-height: 39px;
+  }
+  b {
+    &.bmark {
+      font-weight: 700;
+      font-family: $font_family;
+    }
+  }
+}
+
+.secondscreen {
+  p.pmain {
+    font-size: 16px;
+    line-height: 30px !important;
+    margin-bottom: 2rem;
+    @media (min-width: 992px) {
+      font-size: 21px !important;
+      line-height: 39px !important;
+    }
+  }
+}
+
+a {
+  color: $link_color;
+  text-decoration: none;
+  &:hover {
+    color: $link_hover_color;
+    text-decoration: none;
+  }
+  &:active {
+    color: $link_active_color;
+    text-decoration: none;
+  }
+}
+
+.link1 {
+  font-family: $link_txt_family;
+  font-weight: 400;
+  font-size: 16px;
+  color: $font_color;
+  text-transform: uppercase;
+  &:hover {
+    color: $link_hover_color1;
+    text-decoration: none;
+  }
+  @media (min-width: 1200px) {
+    font-size: 22px;
+  }
+}
+
+.link2 {
+  font-family: $font_family;
+  font-weight: 400;
+  color: $link_color;
+  font-size: 18px;
+  text-transform: uppercase;
+  &:hover {
+    color: $link_hover_color;
+  }
+  &:active {
+    color: $link_active_color;
+  }
+  @media (min-width: 992px) {
+    font-size: 25px;
+  }
+}

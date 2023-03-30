@@ -1,0 +1,162 @@
+.btn {
+  width: 100%;
+  height: 52px;
+  padding: 14px 10px;
+  border-radius: 0;
+  background-color: $btn_bg_color;
+  border: none;
+  font-family: $font_family2;
+  font-size: 20px;
+  font-weight: 700;
+  color: $font_color;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  &:hover {
+    color: $font_color;
+    background-color: $btn_bg_color_hover;
+  }
+  &:active {
+    color: $font_color !important;
+    background-color: $btn_bg_color_active !important;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  @media (min-width: 992px) {
+    width: auto;
+    height: 78px;
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+
+  .btn__icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+  }
+
+  .btn__icon_p {
+    fill: $font_color;
+  }
+
+  &.btn_1 { //index
+    display: block;
+    width: 100%;
+    height: 52px;
+    @media (min-width: 992px) {
+      font-size: 20px;
+      padding: 14px 10px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 24px;
+      height: 80px;
+    }
+    @media (min-width: 1400px) {
+      font-size: 28px;
+      height: 90px;
+    }
+    @media (min-width: 1650px) {
+      font-size: 30px;
+      height: 100px;
+    }
+    @media (min-width: 1920px) {
+      font-size: 30px;
+      height: 100px;
+    }
+  }
+
+  &.btn-login {
+    @media (min-width: 992px) {
+      height: 46px;
+      padding: 13px 10px;
+      font-size: 17px;
+    }
+    @media (min-width: 1200px) {
+      width: auto;
+      height: 88px;
+      font-size: 28px;
+      padding: 27px 15px;
+    }
+    @media (min-width: 1400px) {
+      width: auto;
+      height: 88px;
+      font-size: 28px;
+      padding: 27px 15px;
+    }
+  }
+
+  &.btn_2 { //user list
+    width: 100%;
+    height: 29px;
+    font-size: 12px;
+    padding: 8px 10px;
+    @media (min-width: $user_list_item_breakpoint) {
+      height: 78px;
+      font-size: 25px;
+      padding: 24px 15px;
+    }
+  }
+
+  &.btn_3 { //change photo
+    width: 230px;
+    height: 46px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid $font_color !important;
+    font-family: $font_family2;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: $body_bg_color;
+    color: $font_color;
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      color: $font_color;
+      background-color: $btn_bg_color_hover;
+    }
+    &:active {
+      color: $font_color !important;
+      background-color: $btn_bg_color_active !important;
+    }
+    @media (min-width: 992px) {}
+    @media (min-width: 1200px) {
+      font-size: 25px;
+      padding: 15px 15px;
+      width: 290px;
+      height: 78px;
+    }
+  }
+
+  &.btn_4 { //signout
+    height: 60px;
+    padding: 22px 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: $bg_light_2;
+    color: $font_color;
+    border: none;
+    &:hover {
+      background-color: $btn_bg_color_hover;
+      color: $font_color2;
+    }
+    @media (min-width: 992px) {}
+    @media (min-width: 1200px) {
+      font-size: 24px;
+      padding: 21px 15px;
+      width: 280px;
+      height: 66px;
+    }
+  }
+
+  &.btn_w100 {
+    width: 100%;
+  }
+}
