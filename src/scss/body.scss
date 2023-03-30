@@ -5,30 +5,22 @@ body {
   color: $font_color;
   line-height: 1.5;
   background: $body_bg_color;
+  background-image: url('../img/bg/bgm.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100% 115px;
   @media (min-width: 992px) {
     font-size: $font_size;
+  }
+  @media (min-width: 1200px) {
+    background-image: url('../img/bg/bgd.svg');
+    background-size: 100%;
   }
 
   &.bg-color {
     background: $bg_light_3;
   }
 
-  &.bg-pattern {
-    @media (min-width: 992px) {
-      background-repeat: no-repeat;
-      background-position: 50% -28px;
-      background-size: 104%;
-      &.bg-pattern1 {
-        background-image: url('../img/bg/bg-lightning1.svg');
-      }
-      &.bg-pattern2 {
-        background-image: url('../img/bg/bg-lightning2.svg');
-      }
-      &.bg-pattern3 {
-        background-image: url('../img/bg/bg-lightning3.svg');
-      }
-    }
-  }
 }
 
 .container {
