@@ -1,61 +1,50 @@
-/* font-family: "CeraPro"; */
+/* font-family: "Montserrat"; */
+/* font-family: "MadreRose"; */
 
 @font-face {
-  font-family: 'CeraPro';
-  src: url('../fonts/CeraPro/CeraPro-Light.eot');
-  src: url('../fonts/CeraPro/CeraPro-Light.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CeraPro/CeraPro-Light.woff2') format('woff2'),
-  url('../fonts/CeraPro/CeraPro-Light.woff') format('woff'),
-  url('../fonts/CeraPro/CeraPro-Light.otf') format('opentype'),
-  url('../fonts/CeraPro/CeraPro-Light.svg#CeraPro-Light') format('svg');
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'CeraPro';
-  src: url('../fonts/CeraPro/CeraPro-Regular.eot');
-  src: url('../fonts/CeraPro/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CeraPro/CeraPro-Regular.woff2') format('woff2'),
-  url('../fonts/CeraPro/CeraPro-Regular.woff') format('woff'),
-  url('../fonts/CeraPro/CeraPro-Regular.otf') format('opentype'),
-  url('../fonts/CeraPro/CeraPro-Regular.svg#CeraPro-Regular') format('svg');
+  font-family: 'MadreRose';
+  src: url('../fonts/MadreRose/MadreRose.eot');
+  src: url('../fonts/MadreRose/MadreRose.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MadreRose/MadreRose.woff2') format('woff2'),
+  url('../fonts/MadreRose/MadreRose.woff') format('woff'),
+  url('../fonts/MadreRose/MadreRose.otf') format('opentype'),
+  url('../fonts/MadreRose/MadreRose.svg#MadreRose') format('svg');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'CeraPro';
-  src: url('../fonts/CeraPro/CeraPro-Medium.eot');
-  src: url('../fonts/CeraPro/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CeraPro/CeraPro-Medium.woff2') format('woff2'),
-  url('../fonts/CeraPro/CeraPro-Medium.woff') format('woff'),
-  url('../fonts/CeraPro/CeraPro-Medium.otf') format('opentype'),
-  url('../fonts/CeraPro/CeraPro-Medium.svg#CeraPro-Medium') format('svg');
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-Light.eot');
+  src: url('../fonts/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Montserrat/Montserrat-Light.woff2') format('woff2'),
+  url('../fonts/Montserrat/Montserrat-Light.woff') format('woff'),
+  url('../fonts/Montserrat/Montserrat-Light.otf') format('opentype'),
+  url('../fonts/Montserrat/Montserrat-Light.svg#Montserrat-Light') format('svg');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-Regular.eot');
+  src: url('../fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+  url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+  url('../fonts/Montserrat/Montserrat-Regular.otf') format('opentype'),
+  url('../fonts/Montserrat/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-Medium.eot');
+  src: url('../fonts/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Montserrat/Montserrat-Medium.woff2') format('woff2'),
+  url('../fonts/Montserrat/Montserrat-Medium.woff') format('woff'),
+  url('../fonts/Montserrat/Montserrat-Medium.otf') format('opentype'),
+  url('../fonts/Montserrat/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
   font-style: normal;
   font-weight: 500;
-}
-
-@font-face {
-  font-family: 'CeraPro';
-  src: url('../fonts/CeraPro/CeraPro-Bold.eot');
-  src: url('../fonts/CeraPro/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CeraPro/CeraPro-Bold.woff2') format('woff2'),
-  url('../fonts/CeraPro/CeraPro-Bold.woff') format('woff'),
-  url('../fonts/CeraPro/CeraPro-Bold.otf') format('opentype'),
-  url('../fonts/CeraPro/CeraPro-Bold.svg#CeraPro-Bold') format('svg');
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'CeraPro';
-  src: url('../fonts/CeraPro/CeraPro-Black.eot');
-  src: url('../fonts/CeraPro/CeraPro-Black.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CeraPro/CeraPro-Black.woff2') format('woff2'),
-  url('../fonts/CeraPro/CeraPro-Black.woff') format('woff'),
-  url('../fonts/CeraPro/CeraPro-Black.otf') format('opentype'),
-  url('../fonts/CeraPro/CeraPro-Black.svg#CeraPro-Black') format('svg');
-  font-style: normal;
-  font-weight: 900;
 }
