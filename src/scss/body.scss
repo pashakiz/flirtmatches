@@ -50,24 +50,25 @@ body {
   }
 
   &.container_text {
-    padding-top: 15px;
+    padding-top: 0;
     @media (min-width: 992px) {
       max-width: 830px;
-      padding-top: 150px;
     }
   }
 
   &.container_unsubscribe {
-    padding-top: 15px;
+    padding-top: 0;
     @media (min-width: 992px) {
       max-width: 830px;
-      padding-top: 150px;
     }
   }
 
   &.container_settings {
     @media (min-width: 992px) {
-      padding-top: 57px;
+      padding-top: 0;
+    }
+    @media (min-width: 1400px) {
+      max-width: 1190px;
     }
   }
 
@@ -77,18 +78,17 @@ body {
       @include make-container(30px);
     }
     @media (min-width: 992px) {
-      padding-top: 57px;
+      padding-top: 0;
     }
-    @media (min-width: 1650px) {
-      max-width: $container-xxl;
+    @media (min-width: 1400px) {
+      max-width: 1162px;
     }
   }
 
   &.container_ulist {
-    @include make-container(30px);
-    padding-top: 15px;
+    padding-top: 0;
     @media (min-width: 992px) {
-      padding-top: 57px;
+      padding-top: 0;
     }
   }
 
@@ -119,7 +119,7 @@ body {
   .loader {
     width: 75px;
     height: 75px;
-    background-image: url('../img/icons/lightnings.svg');
+    background-image: url('../img/icons/heart.svg');
     position: absolute;
     top: 50%;
     left: 50%;
