@@ -58,11 +58,11 @@ if (document.querySelector('.splide_up') !== null) {
     type       : 'loop',
     arrows     : true,
     //arrowPath  : 'M0,0H40V40H0Z',
-    arrowPath  : 'M0.585694 14L14.2928 0.292938L15.707 1.70715L3.41412 14L15.707 26.2929L14.2928 27.7072L0.585694 14Z',
+    arrowPath  : 'M0.292893 7.29338C-0.0976295 7.6839 -0.0976296 8.31707 0.292892 8.70759L6.65685 15.0716C7.04738 15.4621 7.68054 15.4621 8.07107 15.0716C8.46159 14.681 8.46159 14.0479 8.07107 13.6573L2.41422 8.00048L8.07107 2.34363C8.46159 1.95311 8.46159 1.31994 8.07107 0.929417C7.68054 0.538893 7.04738 0.538893 6.65685 0.929417L0.292893 7.29338ZM44.1187 7.00049L1 7.00048L1 9.00048L44.1187 9.00049L44.1187 7.00049Z',
     autoHeight : true,
     autoWidth  : true,
     perPage    : 1,
-    gap        : '60px',
+    gap        : '30px',
     //fixedWidth : '525px',
     mediaQuery : 'min',
     breakpoints: {
@@ -71,7 +71,7 @@ if (document.querySelector('.splide_up') !== null) {
       },
       1200: {
         fixedWidth : '525px',
-        arrowPath  : 'M3.43876 30L32.695 1.71898L31.3049 0.281006L0.561157 30L31.3049 59.719L32.695 58.281L3.43876 30Z',
+        arrowPath  : 'M0.847183 10.9393C0.261383 11.5251 0.261383 12.4749 0.847183 13.0606L10.3931 22.6066C10.9789 23.1924 11.9286 23.1924 12.5144 22.6066C13.1002 22.0208 13.1002 21.0711 12.5144 20.4853L4.02916 12L12.5144 3.51471C13.1002 2.92892 13.1002 1.97917 12.5144 1.39339C11.9287 0.8076 10.9789 0.8076 10.3931 1.39339L0.847183 10.9393ZM141.908 10.5L1.90784 10.5L1.90784 13.5L141.908 13.5L141.908 10.5Z',
         gap        : '33px',
       },
       1400: {
@@ -82,12 +82,13 @@ if (document.querySelector('.splide_up') !== null) {
   } ).mount();
 
   // Make arrows size
-  let svgSize = document.documentElement.clientWidth < 1200 ? 28 : 60;
+  let svgWidth = document.documentElement.clientWidth < 1200 ? 45 : 142;
+  let svgHeight = document.documentElement.clientWidth < 1200 ? 16 : 24;
   let svgArrows = document.querySelectorAll('.splide_up .splide__arrow svg');
   svgArrows.forEach(el => {
-    el.setAttribute("viewBox", '0 0 '+svgSize+' '+svgSize);
-    el.setAttribute("width", svgSize);
-    el.setAttribute("height", svgSize);
+    el.setAttribute("viewBox", '0 0 '+svgWidth+' '+svgHeight);
+    el.setAttribute("width", svgWidth);
+    el.setAttribute("height", svgHeight);
   });
 
 }

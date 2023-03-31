@@ -76,7 +76,6 @@ $settings-img-wrap-height-xl: 680px;
   background-size: cover;
   position: relative;
   z-index: 0;
-  overflow: hidden;
   @media (min-width: 576px) {
     height: $settings-img-height;
     max-height: $settings-img-height;
