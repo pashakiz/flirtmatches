@@ -44,6 +44,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto 25px;
+  //overflow: hidden;
   @media (min-width: 1200px) {
     //width: 410px;
     //min-width: 410px;
@@ -62,11 +63,32 @@
   color: $font_color;
   text-transform: uppercase;
   text-align: center;
+  //white-space: nowrap;
+  //animation: marquee 2s infinite linear;
   @media (min-width: 1200px) {
     font-size: 56px;
     line-height: 1;
   }
+
+  // &::after {
+  //   content: "Limited\00a0offer\00a0\00a0\00a0\00a0\00a0Limited\00a0offer\00a0\00a0\00a0\00a0\00a0Limited\00a0offer\00a0\00a0\00a0\00a0\00a0Limited\00a0offer\00a0\00a0\00a0\00a0\00a0Limited\00a0offer\00a0\00a0\00a0\00a0\00a0Limited\00a0offer\00a0\00a0\00a0\00a0\00a0Limited\00a0offer\00a0\00a0\00a0\00a0\00a0";
+  //   color: red;
+  // }
+
 }
+
+// .timer:hover > .timer__title {
+//   animation-play-state: paused;
+// }
+
+// @keyframes marquee {
+//   0% {
+//     transform: translateX(0);
+//   }
+//   100% {
+//     transform: translateX(-50%);
+//   }
+// }
 
 .userfbacks {
   padding-bottom: 20px;
