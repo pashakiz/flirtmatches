@@ -92,6 +92,43 @@
   }
 }
 
+.splide_ulist {
+  .splide__arrows {
+    bottom: -43px;
+    padding: 0;
+    @media (min-width: 1200px) {
+      bottom: -86px;
+    }
+  }
+  .splide__arrow {
+    &.splide__arrow--next {
+      right: 0;
+    }
+  }
+}
+
+.splide_ulist-extra {
+  .splide__arrows {
+    bottom: -18px;
+    padding: 0;
+    @media (min-width: 1200px) {
+      width: 395px;
+      bottom: 80px;
+      left: -470px;
+    }
+    @media (min-width: 1400px) {
+      width: 444px;
+      bottom: 80px;
+      left: -564px;
+    }
+  }
+  .splide__arrow {
+    &.splide__arrow--next {
+      right: 0;
+    }
+  }
+}
+
 .splide_fback {
   .splide__arrows {
     width: 100%;
