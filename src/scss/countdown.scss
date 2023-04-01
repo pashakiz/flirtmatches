@@ -10,17 +10,15 @@
   width: 187px;
   margin: 0 auto;
   font-family: $font_family2;
-  font-weight: 500;
-  font-size: 49px;
+  font-weight: 400;
+  font-size: 22px;
   line-height: 1;
 	color: $font_color;
-  background-color: $btn_bg_color;
-  box-shadow: 0px 0px 6px 6px $btn_bg_color;
-  padding: 20px;
+  //padding: 10px;
   @media (min-width: 1200px) {
     width: 290px;
-    font-size: 80px;
-    padding: 40px;
+    font-size: 52px;
+    padding: 10px;
   }
 }
 
@@ -28,11 +26,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 55px;
-  height: 46px;
+  width: 30px;
+  height: 26px;
   @media (min-width: 1200px) {
-    width: 80px;
-    height: 90px;
+    width: 72px;
+    height: 66px;
   }
 
   &.clockface-item_days {
@@ -63,16 +61,16 @@
   justify-content: center;
   align-items: center;
   height: 30px;
-  margin: 0 5px;
+  margin: 0 2px;
   @media (min-width: 1200px) {
-    height: 83px;
-    margin: 0 6px;
+    height: 70px;
+    margin: 0 4px;
   }
   &::after {
     content: ':';
-    height: 40px;
+    height: 30px;
     @media (min-width: 1200px) {
-      height: 86px;
+      height: 66px;
     }
   }
 }

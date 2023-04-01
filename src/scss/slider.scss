@@ -127,26 +127,32 @@
       right: 0;
     }
   }
+
+  &.splide_ulist-extra-login {
+    .splide__arrows {
+      bottom: -18px;
+      padding: 0;
+      @media (min-width: 1200px) {
+        width: 100%;
+        left: auto;
+        bottom: -25px;
+      }
+    }
+  }
+
 }
 
 .splide_fback {
   .splide__arrows {
-    width: 100%;
-    bottom: 50%;
-    left: 0;
-    margin: 0;
-    transform: translateY(-14px);
-    .splide__arrow {
-      position: absolute;
-      &.splide__arrow--prev {
-        left: -35px;
-      }
-      &.splide__arrow--next {
-        right: -35px;
-        svg {
-          transform: scaleX(-1) translateX(16px);
-        }
-      }
+    bottom: -43px;
+    padding: 0;
+    @media (min-width: 1200px) {
+      bottom: -86px;
+    }
+  }
+  .splide__arrow {
+    &.splide__arrow--next {
+      right: 0;
     }
   }
 }

@@ -291,27 +291,6 @@ h4 {
   }
 }
 
-.neon-title {
-  display: inline-block;
-  font-family: $font_family;
-  font-weight: 300;
-  color: $body_bg_color;
-  font-size: 33px;
-  line-height: 39px;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0;
-  background-color: $bg_light_2;
-  box-shadow: 0px 0px 14px 10px $bg_light_2;
-  padding: 0 10px;
-  transform: rotate(-2deg);
-  @media (min-width: 992px) {
-    padding: 15px;
-    font-size: 52px;
-    line-height: 39px;
-  }
-}
-
 p {
   line-height: 30px;
   margin-bottom: 1rem;

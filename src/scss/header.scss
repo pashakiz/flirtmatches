@@ -112,35 +112,6 @@ $main-img-height-xxxl: 710px;
     }
   }
 
-  .firstscreen__icon {
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-    position: absolute;
-    left: 50%;
-    width: 99px;
-    height: 105px;
-    @media (min-width: 1200px) {
-      display: none !important;
-    }
-    &.firstscreen__icon1 {
-      background-image: url('../img/icons/l1.svg');
-      top: 190px;
-      transform: translateX(-205px);
-    }
-    &.firstscreen__icon2 {
-      background-image: url('../img/icons/l2.svg');
-      top: 105px;
-      transform: translateX(80px);
-    }
-    &.firstscreen__icon3 {
-      display: none;
-      background-image: url('../img/icons/l3.svg');
-      bottom: 0;
-      transform: translateX(-28px);
-    }
-  }
-
 }
 
 .firstscreen_index {
