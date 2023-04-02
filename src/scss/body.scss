@@ -36,6 +36,20 @@ body {
     }
   }
 
+  &.bg-index {
+    background: $bg_light_1;
+    background-image: url('../img/bg/bgm-index.svg');
+    @media (min-width: 1200px) {
+      background-image: url('../img/bg/bgd-index.svg');
+    }
+  }
+
+  &.bg-login {
+    @media (min-width: 1200px) {
+      background-image: url('../img/bg/bgd-login.svg');
+    }
+  }
+
 }
 
 .container {
