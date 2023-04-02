@@ -14,7 +14,6 @@ body {
   }
   @media (min-width: 1200px) {
     background-image: url('../img/bg/bgd.svg');
-    background-size: 100%;
     background-size: 1920px 1087px;
   }
   @media (min-width: 1920px) {
@@ -39,8 +38,15 @@ body {
   &.bg-index {
     background: $bg_light_1;
     background-image: url('../img/bg/bgm-index.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 100% 398px;
     @media (min-width: 1200px) {
       background-image: url('../img/bg/bgd-index.svg');
+      background-size: 1920px 900px;
+    }
+    @media (min-width: 1400px) {
+      background-size: 100% 988px;
     }
   }
 
