@@ -5,7 +5,7 @@
     document.addEventListener('DOMContentLoaded', initPage);
 
     function initPage() {
-      let firstscreens = document.querySelectorAll('.firstscreen__info');
+      let firstscreens = document.querySelectorAll('.firstscreen');
       firstscreens.forEach(div => div.style.display = 'none');
       let secondscreens = document.querySelectorAll('.secondscreen');
       secondscreens.forEach(div => div.style.display = 'none');
@@ -28,24 +28,25 @@
     }
 
     function showAreaIndex() {
-      //document.body.classList.add('bg-pattern3');
-      document.querySelector('.firstscreen__info.firstscreen__info1').style.display = 'flex';
+      document.body.classList.add('bg-index');
+      document.querySelector('.firstscreen.firstscreen_1').style.display = 'block';
       document.querySelector('.secondscreen.secondscreen_1').style.display = 'block';
     }
     function hideAreaIndex() {
-      document.querySelector('.firstscreen__info.firstscreen__info1').style.display = 'none';
+      document.querySelector('.h1-index_main').style.display = 'none';
+      document.querySelector('.fsi-btn .btn-index').style.display = 'none';
     }
 
     function showAreaSearch() {
-      document.querySelector('.firstscreen__info.firstscreen__info2').style.display = 'flex';
+      document.querySelector('.h1-index_search').style.display = 'block';
+      document.querySelector('.fsi-btn .search-progress.progress').style.display = 'block';
       loading();
     }
 
     function hideAreaSearch() {
-      //document.body.classList.remove('bg-pattern3');
-      document.querySelector('.firstscreen.firstscreen_index').classList.remove('firstscreen_index');
-      document.querySelector('.firstscreen__info.firstscreen__info2').style.display = 'none';
+      document.body.classList.remove('bg-index');
       document.querySelector('.secondscreen.secondscreen_1').style.display = 'none';
+      document.querySelector('.firstscreen.firstscreen_1').style.display = 'none';
     }
 
     function goToLogin() {
@@ -88,8 +89,8 @@
     }
 
     function showAreaLogin() {
-      //document.body.classList.add('bg-pattern2');
-      document.querySelector('.firstscreen__info.firstscreen__info3').style.display = 'flex';
+      document.body.classList.add('bg-login');
+      document.querySelector('.firstscreen.firstscreen_2').style.display = 'block';
       document.querySelector('.secondscreen.secondscreen_2').style.display = 'block';
     }
 
