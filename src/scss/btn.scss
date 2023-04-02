@@ -78,22 +78,23 @@
   }
 
   &.btn-login {
+    height: 60px;
+    font-size: 18px;
+    padding: 20px 10px;
     @media (min-width: 992px) {
-      height: 46px;
-      padding: 13px 10px;
-      font-size: 17px;
+      height: 60px;
+      padding: 20px 10px;
     }
     @media (min-width: 1200px) {
       width: auto;
-      height: 88px;
-      font-size: 28px;
-      padding: 27px 15px;
+      height: 114px;
+      font-size: 26px;
+      padding: 40px 15px;
     }
     @media (min-width: 1400px) {
-      width: auto;
-      height: 88px;
-      font-size: 28px;
-      padding: 27px 15px;
+      height: 114px;
+      font-size: 26px;
+      padding: 40px 15px;
     }
   }
 

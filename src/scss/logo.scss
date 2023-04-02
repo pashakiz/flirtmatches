@@ -11,9 +11,16 @@
   }
 
   &.logo_main {
-    margin: 50px 0 0;
+    margin: 50px 0 29px;
     @media (min-width: 992px) {
-      margin: 147px 0 0 0;
+      margin: 119px 0 36px;
+    }
+  }
+
+  &.logo_login {
+    margin: 50px 0 29px;
+    @media (min-width: 992px) {
+      margin: 147px 0 94px;
     }
   }
 

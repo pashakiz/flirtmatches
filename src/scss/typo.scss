@@ -97,74 +97,36 @@ h1 {
 }
 
 .h1_login {
-  font-family: $font_family2;
+  font-family: $font_family;
   color: $font_color;
-  font-weight: 400;
-  font-size: 27px;
-  line-height: 1.28;
-  margin: 0 0 60px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 33px;
+  margin: 0 0 25px;
   text-align: center;
-  @media (min-width: 380px) {
-    font-size: 27px;
-  }
-  @media (min-width: 450px) {
-    font-size: 27px;
-  }
-  @media (min-width: 992px) {
-    font-size: 60px;
-    line-height: 1.2;
-    margin: 0 0 60px;
-  }
+  text-transform: uppercase;
+  @media (min-width: 992px) {}
   @media (min-width: 1200px) {
     text-align: left;
-    font-size: 50px;
+    font-size: 38px;
+    line-height: 57px;
+    margin: 0 0 32px;
   }
   @media (min-width: 1400px) {
-    font-size: 50px;
-  }
-  @media (min-width: 1650px) {
-    font-size: 60px;
+    font-size: 40px;
+    line-height: 58px;
+    margin: 0 0 42px;
   }
   span {
-    font-size: 31px;
+    font-size: 22px;
     @media (min-width: 992px) {
       font-size: inherit;
     }
     @media (min-width: 1200px) {
       font-size: inherit;
     }
-  }
-}
-
-.h1_login2 {
-  font-family: $font_family2;
-  color: $font_color;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 40px;
-  margin: 20px 0 30px;
-  text-align: center;
-  text-transform: uppercase;
-  @media (min-width: 992px) {
-    font-size: 55px;
-    line-height: 1.35;
-  }
-  @media (min-width: 1200px) {
-    font-size: 55px;
-    line-height: 1.35;
-  }
-
-  &.h1_login2_my {
-    margin: 60px 0 53px;
-    @media (min-width: 1200px) {
-      margin: 100px 0 76px;
-    }
-  }
-
-  .h1_login2br {
-    display: block;
-    @media (min-width: 450px) {
-      display: none;
+    @media (min-width: 1400px) {
+      font-size: inherit;
     }
   }
 }
@@ -265,29 +227,6 @@ h4 {
 
   &.h4_pv {
     padding: 0 20px;
-  }
-
-  &.h4_firstscreen {
-    color: $body_bg_color;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 32px;
-    margin: 25px 0 0 0;
-    @media (min-width: 1200px) {
-      color: $font_color;
-      font-weight: 300;
-      font-size: 25px;
-      line-height: 60px;
-      margin: 0 0 30px 0;
-    }
-    @media (min-width: 1400px) {
-      font-size: 30px;
-      margin: 0 0 36px 0;
-    }
-    @media (min-width: 1650px) {
-      font-size: 35px;
-      margin: 0 0 65px 0;
-    }
   }
 }
 

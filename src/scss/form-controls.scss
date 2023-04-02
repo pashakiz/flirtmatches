@@ -52,6 +52,7 @@
     font-size: $input_txt_xs_size;
     line-height: $input_txt_xs_lh;
     @media (min-width: 1200px) {
+      text-align: left;
       padding: 18px 46px;
       font-size: $input_txt_size;
       line-height: $input_txt_lh;
